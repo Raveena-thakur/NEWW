@@ -1,0 +1,14 @@
+echo "raveena"
+name="Raveena"
+age=20
+echo "my name is $name"
+echo "my age is $age"
+echo "what is your name"
+read first_name
+echo "my name is $first_name"
+echo "welcome $first_name"
+echo "today is $(TZ=Asis/Kolkata date)"
+read num1
+read num2
+sum=$(expr $num1 + $num2)
+echo "the sum is: $sum"
